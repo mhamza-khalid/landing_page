@@ -1,0 +1,226 @@
+.body{
+    font-family: "Roboto", Arial, sans-serif;
+    margin:0;
+}
+.container1{
+    display: flex;
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #1F2937;
+    align-items: center;
+}
+.container1 > span{      /*header-logo*/
+    flex-grow:1;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-left:300px;
+}
+.container1 > ul{
+    flex-grow:1;
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    padding-right:300px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container2{
+    display:flex;
+    background-color: #1F2937;
+    font-family: "Roboto", Arial, sans-serif;
+    padding-top:120px;
+    padding-bottom: 120px;
+}
+
+.container2 .Hero .text1{
+   
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.container2 .Hero .sub_text{
+    font-size: 18px;
+    color: #E5E7Eb;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.container2 .Hero .button1{
+    background-color: #3882F6; /* Set the background color */
+    color: white; /* Set the text color */
+    font-size: 16px; /* Set the font size */
+    border-radius: 14px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right:30px;
+    padding-left:30px;
+    border: none;
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    font-weight: 400;
+}
+
+.container2 .Hero{
+    padding-left:300px;
+    width:500px;
+}
+
+.container2 .image{
+    margin-left:100px;
+     background-color: grey;
+     height: 300px;
+     width: 540px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+}
+
+
+.info{
+    font-family: "Roboto", Arial, sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom: 80px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cards .item-1 .box{
+    flex:1;
+    width:200px;
+    height:180px;
+    border:5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.cards .item-1 .sub_text2{
+    font-size: 18px;
+    color: #595353;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    width:200px;
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+}
+
+.quote .p1{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 10;
+    color:#1F2937;
+    padding-left: 326px;
+    padding-right: 446px;
+    margin-right: 100px;
+    margin-left: 141px;
+    margin-bottom: 0px;
+}
+.quote .p2{
+    font-family: "Roboto", Arial, sans-serif;
+    margin-left: 512px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.panel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel .item3 .inner{
+    width:100%;
+    height:300px;
+    flex:1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel .item3 .inner .inner2{
+    width:1200px;
+    height:100px;
+    border: 5px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    padding:18px;
+}
+
+.panel .item3 .inner .inner2 .action {
+    flex-grow:2;
+    margin-left:95px;
+}
+
+.panel .item3 .inner .inner2 .sign{
+    flex-grow:1;
+}
+.panel .item3 .inner .inner2 .action .p11{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.panel .item3 .inner .inner2 .action .p22{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    margin-top:2px;
+}
+
+.panel .item3 .inner .inner2 .button2{
+    background-color: #3882F6;
+    border:2px solid white;
+    border-radius: 6px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+.footer .end{
+    font-size: 20px;
+    font-family: "Roboto", Arial, sans-serif;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: white;
+}
